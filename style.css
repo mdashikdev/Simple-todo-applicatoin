@@ -1,0 +1,140 @@
+.container{
+    width: 50%;
+    background: rgba(250, 250, 250, 0.308);
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: auto;
+    box-shadow: 1px 1px 15px rgba(204, 204, 204, 0.479);
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background: rgba(91, 233, 221, 0.082);
+    margin-bottom: 10px;
+}
+
+.scnd_container{
+    background: rgba(91, 233, 221, 0.082);
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.left_container{
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+    float: left;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.left_container ul li{
+    border-bottom: 1px solid rgba(221, 221, 221, 0.788);
+    padding: 10px 5px 10px 5px;
+}
+
+.right_container{
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+
+.right_container ul{
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.right_container ul li{
+    background-color: rgba(70, 240, 70, 0.205);
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    line-height: 30px;
+}
+
+.todoinput{
+    margin-top: 10px;
+}
+
+.todoinput > input[type="text"]{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+}
+
+.todoinput > input[type="submit"]{
+    border: none;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    background: rgb(29, 236, 226);
+    color: white;
+    box-shadow: 0px 0px 2px #ccc;
+    cursor: pointer;
+}
+
+.todoinput > input[type="submit"]:hover{
+    background: rgb(29, 216, 207);
+    box-shadow: 0px 0px 15px rgb(180, 180, 180);
+}
+
+ul{
+    padding: 0px;
+}
+
+ul > li{
+    list-style: none;
+}
+
+#dltbtn{
+    float: right;
+    background: rgb(253, 81, 13);
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
